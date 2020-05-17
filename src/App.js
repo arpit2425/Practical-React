@@ -2,13 +2,12 @@ import React from "react";
 
 import "./App.css";
 
-import Countup from "./Components/Countup";
-import IdleTimer from "./Components/IdleTimer";
+import ColorPicker from "./Components/ColorPicker";
 
 function App() {
   return (
     <div className="App">
-      <IdleTimer />
+      <ColorPicker />
     </div>
   );
 }
